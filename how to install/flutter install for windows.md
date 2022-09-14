@@ -46,5 +46,5 @@ main(){
 ## 7. Flutter & Dart로 기본 앱 코드(increasing button) 실행시키기
 
 - Android Studio → Projects → 더보기(점 3개) → Virtual Device Manager → Create Device → Pixel 2 → `R`(API level : 30) download → Next → Finish
-- Android Studio → New Flutter Project → Flutter → Flutter SDK path : `C:\src\flutter` → 기본 설정으로 Finish → 왼쪽 Workspace에서 lib directory main.dart파일 클릭 → Run Icon(초록색) 왼쪽에 `no device selected` 클릭해서 아까전에 다운받은 Pixel 2로 변경(없다면 Refresh 누르고 새로고침) → Run
+- Android Studio → New Flutter Project → Flutter → Flutter SDK path : `C:\src\flutter` → 기본 설정으로 Finish → 왼쪽 Workspace에서 lib  / main.dart파일 클릭 → Run Icon(초록색) 왼쪽에 `no device selected` 클릭해서 아까전에 다운받은 Pixel 2로 변경(없다면 Refresh 누르고 새로고침) → Run(최초 실행에 시간 많이 소요됨)
 
