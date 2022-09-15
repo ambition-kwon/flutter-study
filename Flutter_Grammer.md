@@ -97,3 +97,51 @@ void main(List<String> args) {
 	var value = buffer.toString();
 }
 ```
+
+```dart
+enum fruits {apple, pear, grapes, banana, orange}
+void main(List<String> args) {
+  fruits like = fruits.apple;
+  var dislike = fruits.banana;
+
+  print(like.toString());
+  print(dislike.toString());
+
+  var a = fruits.grapes.index;
+  print(a);
+}
+/*출력
+fruits.apple
+fruits.banana
+2
+*/
+```
+
+```dart
+void main(List<String> args) {
+  bool test1 = 5 == 5;
+  bool test2 = false;
+  var oops = 0/0;
+  print(test1);
+  print(test2);
+  print(oops); //NaN(Not a Number) 타입은 float
+  bool test3 = oops.isNaN;
+  print(test3);
+}
+/*출력
+true
+false
+NaN
+true
+*/
+```
+
+```dart
+List<int> test = [];
+```
+
+```dart
+int value;
+print("$value"); //dart언어에서 null값은 보유 할 수 없다. 따라서 Compile ERROR
+
+```
